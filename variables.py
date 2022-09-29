@@ -8,7 +8,7 @@
 
 # Declare variable: 🔍
 # A variable declaration provides assurance to the compiler / interpreter
-# that there exists a variable with the given *type* and *name* so that the compiler can proceed
+# that there exists a variable with the given *type* and *name* so that the compiler / interpreter can proceed
 # for further compilation without requiring the complete detail about the variable. It also works
 # as a pointer in memory, to access it.
 
@@ -21,6 +21,7 @@ my_name = 'Eduardo'
 # It's important to make sure we add descriptive names:
 
 AKZ = 10 # this is not a very descriptive name, because it doesn't make sense what 'AKZ' is.
+COLOR_BACKGROUND = '#EFEFE5'
 UPPER_CASE = 'UPPER_CASE'
 lower_case = 'lower_case'
 PascalCase = 'PascalCase'
