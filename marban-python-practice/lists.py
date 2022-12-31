@@ -6,6 +6,7 @@ print(fruit)
 #Example 2
 fruit = ["Apple", "Orange", "Pear"]
 print(fruit)
+
 #Add an item to the list and place it last
 fruit = ["Apple", "Orange", "Pear"]
 fruit.append("Bannana")
@@ -21,44 +22,41 @@ print(random)
 
 #Use iterable index (starting from 0) to retrieve from a container (list)
 fruit = ["Apple", "Orange", "Pear"]
-fruit[0]
-fruit[1]
-fruit[2]
-print(fruit)
+print(fruit[1])
 
 #Containers are mutable (editable), replace an object inside a container referencing its index number (position)
-colors = ["blue", "green", "yellow"]
-colors[2] = "red"
+colors = ["Blue", "Green", "Yellow"]
+colors[2] = "Red"
 print(colors)
 
 #Remove last item in a list
-colors = ["blue", "green", "yellow"]
+colors = ["Blue", "Green", "Yellow"]
 item = colors.pop()
 print(item)
 print(colors)
 
 #Combine lists
-colors = ["blue", "green", "yellow"]
+colors = ["Blue", "Green", "Yellow"]
 fruit = ["Apple", "Orange", "Pear"]
-print(colors + fruit)
+print(colors + fruit)#["Blue", "Green", "Yellow", "Apple", "Orange", "Pear"]
 
 #Check if an item is in a list
-colors = ["blue", "green", "yellow"]
+colors = ["Blue", "Green", "Yellow"]
 item = "green" in colors
 print(item)
 
 #Check if an item is not in a list
-colors = ["blue", "green", "yellow"]
+colors = ["Blue", "Green", "Yellow"]
 item = "black" not in colors
-print(item)
+print(item)#True
 
 #Get the number of items in a list
-colors = ["blue", "green", "yellow"]
+colors = ["Blue", "Green", "Yellow"]
 items = len(colors)
-print(items)
+print(items)#3
 
 #Game to guess a color
-colors = ["blue", "green", "yellow"]
+colors = ["Blue", "Green", "Yellow"]
 guess = input("Guess a color: ")
 if guess in colors:
     print("You guessed correctly!")

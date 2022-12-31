@@ -9,9 +9,6 @@ def f():
 f()
 
 #Local scope (inside a function)
-x = 1
-y = 2
-z = 3
 def f():
     x = 1
     y = 2
